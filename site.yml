@@ -1,0 +1,11 @@
+# Set up our static webserver
+---
+- hosts: all
+  sudo: yes
+  name: Webservers
+  roles:
+    - { role: geerlingguy.nginx }
+  post_tasks:
+    - copy:
+        src: ./index.html
+        dest: /usr/share/nginx/html/index.html
