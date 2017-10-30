@@ -3,9 +3,6 @@ provider "aws" {
     region = "us-east-1"
 }
 
-# Get all the availability zones available to this aws account
-data "aws_availability_zones" "all" {}
-
 # Create a variable that defines the port for the http server
 variable "server_port" {
   description = "HTTP Server Port"
