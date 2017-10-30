@@ -1,6 +1,7 @@
 # Example AWS provisioning with Terraform and Ansible
+This is excercise to demonstrate kicking off an ansible provisioner from a terraform plan.
 
-Generate ssh keys. You can leave the passwod blank.
+Generate ssh keys. Leave the password blank.
 
 ```shell
 $ cd terraform_ansible_example
@@ -12,5 +13,6 @@ $ terraform plan
 $ terraform apply
 ```
 
-
+# TODO
+It would be nice to poplate an inventory file where groups mapped to the instance tages.
 
