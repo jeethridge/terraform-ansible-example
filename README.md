@@ -14,5 +14,5 @@ $ terraform apply
 ```
 
 # TODO
-It would be nice to poplate an inventory file where groups mapped to the instance tages.
+It would be nice to populate an inventory file where groups mapped to the instance tags.
 
